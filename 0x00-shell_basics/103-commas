@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a  *[/] ./* ../*
+ls -1Ap | { printf "./\n../\n"; grep -v '^\.$' | sort -d | tr '\n' ','; echo; }
