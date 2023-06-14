@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -s 777  /bin/ls  /__ls__
+ln -s 777  /bin/ls  /__ls__
