@@ -1,2 +1,2 @@
 #!/bin/bash
-tail -1 iacta | tee -a
+file="iacta"; last_line=$(tail -n 1 "$file"); echo "$last_line" >> "$file"
