@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty | ls -at1
+find .  -empty -exec basename {} | ls -a -1
