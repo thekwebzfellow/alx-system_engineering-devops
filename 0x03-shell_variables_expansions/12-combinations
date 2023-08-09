@@ -1,2 +1,2 @@
 #!/bin/bash
-echo a{a..z}z | ls -1 | sort -u | tr -d oo
+echo {a..z}{a..z} | ls -1 | sort -u | tr -d oo
