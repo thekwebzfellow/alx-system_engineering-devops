@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(ls -2 | head)
+echo {a..z} | ls -2 | sort -u
